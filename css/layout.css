@@ -1,25 +1,4 @@
-/**
-*	Ryan - Resume/CV/vCard Template (HTML)
-*	Version: 2.5
-*	Author: beshleyua
-*	Author URL: http://themeforest.net/user/beshleyua
-*	Copyright © Cvio by beshleyua. All Rights Reserved.
-**/
 
-/* TABLE OF CONTENTS
-	1. Base
-	2. Container
-	3. Columns
-	4. Preloader
-	5. Typography
-	6. Forms
-	7. Alignments
-	8. Animations
-*/
-
-/*
-	1. Header
-*/
 
 .header {
   position: absolute;
@@ -3426,7 +3405,7 @@ p.no-comments {
 
 @media (max-width: 1199px) {
 .card-started .title {
-    padding-top: 60px;
+    padding-top: 55px;
   }
 
 
