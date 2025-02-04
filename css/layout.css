@@ -3425,6 +3425,9 @@ p.no-comments {
 }
 
 @media (max-width: 1199px) {
+	.card-started .title {
+    padding-top: 150px;
+  }
   .content-sidebar .sidebar-wrap {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
