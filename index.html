@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>M.Aliansyah - Resume</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="description" content="vCard & Resume" />
+    <meta
+      name="keywords"
+      content="vcard, resposnive, resume, personal, card, cv, cards, portfolio"
+    />
+    <meta name="author" content="aliansyah" />
+
+    <link href="assets/loader/preloader.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5b2de8089b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="css/basic.css" />
+
+    <link rel="stylesheet" href="css/layout.css" />
+
+    <!-- <link rel="stylesheet" href="css/ionicons.css" /> -->
+
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+
+    <link rel="stylesheet" href="css/gradient.css" />
+
+    <link rel="stylesheet" href="css/new-skin.css" />
+
+    <link rel="stylesheet" href="css/demo-2-colors.css" />
+
+    <link rel="stylesheet" href="css/classic-skin.css" />
+    <link rel="stylesheet" href="css/dark.css" />
+    <!--
+    -->
+    <link rel="icon" type="image/jpg" href="foto.jpg" />
+    <style>
+      .title .age {
+        font-size: 10px;
+        font-weight: bold;
+        font-style: italic;
+        position: relative;
+        top: -20px;
+        padding: 2px;
+        color: #a1a1a1;
+      }
+
+      .summary {
+        cursor: pointer;
+        color: #007bff; /* Warna teks untuk menarik perhatian */
+        text-decoration: underline; /* Garis bawah untuk menunjukkan interaktivitas */
+      }
+
+      .details {
+        display: none; /* Sembunyikan detail awal */
+        margin-top: 5px;
+        color: #333;
+      }
+
+      /* Tampilkan detail saat hover atau aktif */
+      .expandable:hover .details,
+      .expandable:focus .details {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="page new-skin">
+      <div class="background gradient">
+        <ul class="bg-bubbles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
+      <div
+        class="container opened"
+        data-animation-in="fadeInLeft"
+        data-animation-out="fadeOutLeft"
+      >
+        <header class="header">
+          <div class="profile">
+            <div class="image">
+              <a href="#">
+                <img src="foto.jpg" alt="M.Aliansyah" />
+              </a>
+            </div>
+            <div class="title">M. Aliansyah</div>
+            <div class="subtitle subtitle-typed">
+              <div class="typing-title2">
+                <div class="owl-carousel">
+                  <p>Software Engineer / IT Support Infrastructure</p>
+                  <p>Freelancer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="top-menu">
+            <div class="f-menu tab-slider--nav">
+              <ul class="tab-slider--tabs">
+                <li class="tab-slider--trigger active" rel="tab1">
+                  <a href="#tab1">
+                    <span class="fas fa-user"></span>
+                    <span class="link">About</span>
+                  </a>
+                </li>
+                <li class="tab-slider--trigger" rel="tab2">
+                  <a href="#tab2">
+                    <span class="fas fa-file-alt"></span>
+                    <span class="link">Resume</span>
+                  </a>
+                </li>
+
+                <li class="tab-slider--trigger" rel="tab3">
+                  <a href="#tab3">
+                    <span class="fas fa-folder-open"></span>
+                    <span class="link">Works</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </header>
+
+        <!-- ID Home-->
+        <div class="card-started" id="home-card">
+          <div class="profile">
+            <div
+              class="slide"
+              style="
+                background-image: url('works/presentasi.jpeg');
+                background-position: 30% 100%;
+              "
+            ></div>
+
+            <div class="image">
+              <img src="foto.jpg" alt="" />
+            </div>
+            <br />
+
+            <div class="title">
+              <br /><br />M. Aliansyah <span class="age" id="age"></span>
+            </div>
+            <p style="color: #ff9800">
+              Software Engineer / IT Support Infrastructure
+            </p>
+            <!-- <div class="subtitle subtitle-typed">
+              <div class="typing-title">
+                <div class="owl-carousel">
+                  <div>
+                    <p>Software Engineer / IT Support Infrastructure</p>
+                  </div>
+                  <div>
+                    <p>Freelancer</p>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <div class="social">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/m-aliansyah-42a531250/"
+                ><span class="fa fa-linkedin"></span
+              ></a>
+
+              <a target="_blank" href="https://wa.me/085750421916"
+                ><span class="fa fa-whatsapp"></span
+              ></a>
+
+              <a target="_blank" href="https://instagram.com/aliansyahh_"
+                ><span class="fa fa-instagram"></span
+              ></a>
+
+              <a
+                target="_blank"
+                href="https://m.facebook.com/profile.php?id=100009613997484&name=xhp_nt__fb__action__open_user&wtsid=rdr_0W6sivIyhXSkHSRNd&from_intent_redirect=1"
+                ><span class="fa fa-facebook"></span
+              ></a>
+            </div>
+
+            <div class="lnks">
+              <a href="CV-aliansyah.pdf" class="lnk">
+                <span class="text">Download CV</span>
+              </a>
+              <a href="https://github.com/aliansyahh" class="lnk discover">
+                <span class="text">My Github</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- END ID Home-->
+        <div class="main-content tab-slider--container">
+          <!-- ID about-->
+          <div class="card-innerx tab-slider--body" id="tab1">
+            <div class="card-wrapx">
+              <div class="content about">
+                <div class="title">About</div>
+
+                <div class="row">
+                  <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                    <div class="text-box" style="text-align: justify">
+                      <p>
+                        Saya M. Aliansyah, lulusan S1 Teknik Informatika tahun
+                        2020, dengan pengalaman &#177; 4 tahun di bidang
+                        teknologi informasi dan industri pertambangan. Saat ini,
+                        saya aktif bekerja sebagai <b> Software Engineer</b> di
+                        <strong>PT. Pama Persada Nusantara Distrik BBSO</strong
+                        >, dengan peran ganda sebagai IT Programmer dan IT
+                        Support Infrastructure.
+                        <!-- Tugas saya mencakup pengembangan
+                        solusi perangkat lunak untuk mendukung operasional
+                        perusahaan serta pemeliharaan infrastruktur TI seperti
+                        CCTV, jaringan fiber optik, dan pekerjaan di ketinggian. -->
+                      </p>
+                      <br />
+                      <p>
+                        Saya adalah pribadi yang berorientasi pada solusi,
+                        adaptif, dan memiliki komitmen tinggi untuk memberikan
+                        kontribusi yang berdampak positif dalam lingkungan kerja
+                        yang dinamis.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="clear"></div>
+                </div>
+              </div>
+
+              <div class="content fuct">
+                <div class="title">Information</div>
+                <div class="row fuct-items">
+                  <!-- Kolom 1 -->
+                  <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                    <div class="fuct-item">
+                      <div class="icon">
+                        <span class="fas fa-briefcase"></span>
+                      </div>
+                      <div class="name">&#177; 4 Tahun Pengalaman Kerja.</div>
+                    </div>
+                  </div>
+
+                  <!-- Kolom 2 -->
+                  <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                    <!-- Diubah dari col-d-4 ke col-d-3 -->
+                    <div class="fuct-item">
+                      <div class="icon"><span class="fa fa-trophy"></span></div>
+                      <div class="name">3 Sertifikasi</div>
+                    </div>
+                  </div>
+
+                  <!-- Kolom 3 -->
+                  <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                    <div class="fuct-item">
+                      <div class="icon"><span class="fa fa-coffee"></span></div>
+                      <div class="name">
+                        20+ Perangkat Lunak yang pernah dibuat
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Kolom 4 -->
+                  <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                    <div class="fuct-item">
+                      <div class="icon"><span class="fa fa-flag"></span></div>
+                      <div class="name">Cepat memahami hal baru</div>
+                    </div>
+                  </div>
+
+                  <div class="clear"></div>
+                </div>
+              </div>
+
+              <div class="content services">
+                <div class="title">Services</div>
+
+                <div class="row service-items border-line-v">
+                  <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+                    <div class="service-item">
+                      <div class="icon">
+                        <span class="fa fa-code"></span>
+                      </div>
+                      <div class="name">
+                        <span>Software Engineer</span>
+                      </div>
+                      <div class="desc">
+                        <div>
+                          <p>
+                            Pengembangan Sistem yang Dinamis, Modern, dan Aman
+                            untuk Meningkatkan Efisiensi serta Produktivitas
+                            Kerja.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+                    <div class="service-item">
+                      <div class="icon">
+                        <span class="fab fa-linux"></span>
+                      </div>
+                      <div class="name">
+                        <span> Linux Server Development </span>
+                      </div>
+                      <div class="desc">
+                        <div>
+                          <p>
+                            Penggunaan Server Linux yang dioptimalkan untuk
+                            kecepatan maksimal dan siap digunakan untuk
+                            deployment aplikasi.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+                    <div class="service-item">
+                      <div class="icon">
+                        <span class="fas fa-network-wired"></span>
+                      </div>
+                      <div class="name">
+                        <span> IT Support Infrastructure</span>
+                      </div>
+                      <div class="desc">
+                        <div>
+                          <p>
+                            Berperan pada pemeliharaan infrastruktur TI,
+                            manajemen jaringan, keamanan sistem, dan dukungan
+                            teknis.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+                    <div class="service-item">
+                      <div class="icon">
+                        <span class="fas fa-sync-alt"></span>
+                      </div>
+                      <div class="name">
+                        <span>Fleksibilitas</span>
+                      </div>
+                      <div class="desc">
+                        <div>
+                          <p>
+                            Bersedia untuk rotasi pekerjaan guna mendukung
+                            tugas-tugas lain sesuai dengan arahan dan kebutuhan
+                            perusahaan.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="clear"></div>
+              </div>
+
+              <!-- <div class="content clients">
+                <div class="title">My Startup</div>
+
+                <div class="row client-items">
+                  <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                    <div class="client-item">
+                      <div class="image teganal">
+                        <a href="https://neumedira.com">
+                          <img
+                            src="https://office.neumedira.com/uploads/1/2021-07/image_26_07_21_at_1233.JPG"
+                            alt="Neumedira"
+                          />
+                        </a>
+                        Neumedira
+                      </div>
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </div> -->
+              <div class="content clients">
+                <div class="title">Users & Clients</div>
+
+                <div class="row client-items">
+                  <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                    <div class="client-item">
+                      <div class="image">
+                        <a href="https://www.pamapersada.com/AboutUs">
+                          <img
+                            src="logo_pama.png"
+                            alt="LOGO PAMA PERSADA NUSANTARA"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                    <div class="client-item">
+                      <div class="image">
+                        <a href="https://sicika.id/" target="_blank">
+                          <img
+                            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSbOBWxRgSSsjLnKr1kpi08pZo6U_t0yB8GIXfHYx2_ImCCmqmW0osqvX3iCr8-nf0BsYExbUir5CBYlbRsQ_UwVOEbJld9Oan6JBrKTt2m3hIJ53r-8ZmS8bkRc8AMEEBrhLomI-bx58lFuMqnw_B66iMhxu5sbbUUgL82QsCA6r2UcIEJG4EOQ/w229-h320/Logo%20Provinsi%20Kalimantan%20Selatan.png"
+                            alt="PUPR PROVINSI KALSEL"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                    <div class="client-item">
+                      <div class="image">
+                        <a
+                          href="https://www.racerdasinsani.com/"
+                          target="_blank"
+                        >
+                          <img
+                            src="https://www.racerdasinsani.com/landing/assets/logo/logo.png"
+                            alt="Aplikasi Absensi & Positioning Pegawai"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                    <div class="client-item">
+                      <div class="image">
+                        <a href="https://pama-bbso.com/" target="_blank">
+                          <img
+                            src="bbso_logo.jpeg"
+                            alt="Aplikasi Absensi & Positioning Pegawai"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                    <div class="client-item">
+                      <div class="image">
+                        <img
+                          src="logo_kalselunite.png"
+                          alt="Aplikasi Absensi & Positioning Pegawai"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                    <div class="client-item">
+                      <div class="image">
+                        <img
+                          src="data:image/jpeg;base64,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"
+                          alt="LOGO NEUMEDIRA INDONESIA"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="clear"></div>
+                </div>
+              </div>
+
+              <div class="content quote">
+                <div class="title">
+                  <span>Quote</span>
+                </div>
+
+                <div class="row">
+                  <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+                    <div class="revs-item">
+                      <div class="text">
+                        <div>
+                          Mempelajari hal baru itu mudah, dan akan lebih mudah
+                          jika kita menjadikannya sebuah tantangan!
+                        </div>
+                      </div>
+                      <div class="user">
+                        <div class="img">
+                          <img src="foto.jpg" alt="M.Aliansyah" />
+                        </div>
+                        <div class="info">
+                          <div class="name">M.Aliansyah</div>
+                          <div class="company">
+                            Software Engineer / IT Support Infrastructure
+                          </div>
+                        </div>
+                        <div class="clear"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END ID about-->
+          <!-- ID resume-->
+          <div class="card-innerx tab-slider--body" id="tab2">
+            <div class="card-wrapx">
+              <div class="content resume">
+                <div class="title">Resume</div>
+
+                <div class="row">
+                  <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                    <div class="resume-title border-line-h">
+                      <div class="icon"><i class="fa fa-briefcase"></i></div>
+                      <div class="name">Experience</div>
+                    </div>
+                    <div class="resume-items">
+                      <div class="resume-item border-line-h active">
+                        <div class="date">Okt 2023 - Present</div>
+                        <div class="name">
+                          Software Engineer & IT Support Infrastructure
+                        </div>
+                        <div class="company">PT. Pama Persada Nusantara</div>
+                        <p>
+                          Mengembangkan aplikasi, melakukan standarisasi kode,
+                          dan memantau kinerja sistem. Bertanggung jawab dalam
+                          menentukan arsitektur sistem, membangun serta
+                          memelihara server, dan mengelola infrastruktur TI
+                          seperti CCTV, jaringan fiber optik, serta pekerjaan di
+                          ketinggian.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="resume-items">
+                      <div class="resume-item border-line-h active">
+                        <div class="date">Jan - Augt 2023</div>
+                        <div class="name">
+                            Customer Order Processor
+                        </div>
+                        <div class="company">PT. Kanitra Mitra Jayautama</div>
+                        <ul
+                          style="list-style-type: disc; padding-left: 6%"
+                        >
+                          <li>
+                            <summary>
+                                Bertanggung jawab sebagai Sub-Contractor di PT. United Tractors, Distrik SMMS.
+                            </summary>
+                            <details>
+                                Bertanggung jawab sebagai Sub-Contractor di PT. United Tractors, Distrik SMMS, dengan fokus pada pengelolaan permintaan part dari pelanggan hingga proses penyelesaian administrasi.
+                            </details>
+                          </li>
+                          <li>
+                            <summary>
+                                Memproses Warehouse Request (WR) secara efisien.
+                            </summary>
+                            <details>
+                                Memproses Warehouse Request (WR) secara efisien, mulai dari penerimaan permintaan part dari pelanggan hingga penerbitan Berita Acara Serah Terima (BAST), memastikan ketepatan waktu dan akurasi dokumen.
+                            </details>
+                          </li>
+                          <li>
+                            <summary>
+                                Menangani seluruh siklus Purchase Order (PO).
+                            </summary>
+                            <details>
+                                Menangani seluruh siklus Purchase Order (PO), termasuk pembuatan PO, penerbitan invoice, serta pengelolaan dokumen pendukung seperti Surat Perintah Bayar (SPB) dan BAST.
+                            </details>
+                          </li>
+                          <li>
+                            <summary>
+                                Mengelola dan memperbarui data Outstanding WR.
+                            </summary>
+                            <details>
+                                Mengelola dan memperbarui data Outstanding WR, serta mempresentasikan laporan terkini dalam daily meeting plant bersama pelanggan untuk memberikan update dan estimasi penyelesaian part yang masih outstanding.
+                            </details>
+                          </li>
+                          <li>
+                            <summary>
+                                Berkolaborasi dengan tim internal dan eksternal.
+                            </summary>
+                            <details>
+                                Berkolaborasi dengan tim internal dan eksternal untuk memastikan kelancaran proses permintaan part, meningkatkan kepuasan pelanggan, dan meminimalkan keterlambatan pengiriman.
+                            </details>
+                          </li>
+                          
+                    </ul>
+                      </div>
+                      <div class="resume-item border-line-h active">
+                        <div class="date">Jan 2021 - Jan 2022</div>
+                        <div class="name">Project Lead - Website Developer</div>
+                        <div class="company">Neumedira Indonesia</div>
+                        <ul style="list-style-type: disc; padding-left: 6%">
+                          <li>
+                            <summary>
+                              Memimpin dan mengkoordinasikan tim pengembangan System.
+                            </summary>
+                            <details>
+                              Memimpin dan mengkoordinasikan tim pengembangan
+                              dalam merancang dan mengimplementasikan sistem
+                              berbasis website untuk Dinas PUPR Provinsi
+                              Kalimantan Selatan, memastikan proyek selesai
+                              tepat waktu dan sesuai anggaran.
+                            </details>
+                          </li>
+                          <li>
+                            <summary>
+                              Melakukan analisis terhadap kebutuhan sistem
+                              klien.
+                            </summary>
+                            <details>
+                              Melakukan analisis mendalam terhadap kebutuhan
+                              sistem klien, merancang solusi teknis yang
+                              inovatif, dan menyajikan rekomendasi strategis
+                              untuk meningkatkan efisiensi dan fungsionalitas.
+                            </details>
+                          </li>
+                          <li>
+                            <summary>
+                              Bertanggung jawab atas pengawasan kualitas sistem.
+                            </summary>
+                            <details>
+                              Bertanggung jawab atas pengawasan kualitas sistem,
+                              termasuk pengujian fungsionalitas, keamanan, dan
+                              performa, untuk memastikan hasil akhir memenuhi
+                              standar tertinggi dan sesuai dengan ekspektasi
+                              stakeholder.
+                            </details>
+                          </li>
+                          <li>
+                            <summary>
+                              Berkolaborasi dengan berbagai pihak terkait.
+                            </summary>
+                            <details>
+                              Berkolaborasi dengan berbagai pihak, termasuk
+                              stakeholder internal dan eksternal, untuk
+                              memastikan keselarasan antara tujuan bisnis dan
+                              implementasi teknis.
+                            </details>
+                          </li>
+                          <li>
+                            <summary>Mengelola alur kerja proyek.</summary>
+                            <details>
+                              Mengelola alur kerja proyek, termasuk penjadwalan,
+                              alokasi sumber daya, dan pelaporan progres, untuk
+                              memastikan transparansi dan akuntabilitas selama
+                              siklus pengembangan.
+                            </details>
+                          </li>
+                        </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                    <div class="resume-title border-line-h">
+                      <div class="icon"><i class="fa fa-university"></i></div>
+                      <div class="name">Education</div>
+                    </div>
+
+                    <div class="resume-items">
+                      <div class="resume-item border-line-h">
+                        <div class="date">2016 - 2020</div>
+                        <div class="name">
+                          Universitas Islam Muhammad Arsyad Al-Banjari
+                        </div>
+                        <div class="company">Banjarbaru</div>
+                        <p>
+                          Bachelor's Degree in Computer Science UNISKA Technical
+                          Institute
+                        </p>
+                      </div>
+
+                      <br />
+                      <div class="resume-title border-line-h">
+                        <div class="icon">
+                          <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="name">Sertification</div>
+                      </div>
+                      <div class="resume-item">
+                        <div class="date">2024 - 2027</div>
+                        <div class="name">Digital Talent by Kominfo</div>
+                        <div class="company">Banjarbaru</div>
+                        <p>
+                          Coursework - CCNA (Cisco Certified Network Associate).
+                        </p>
+                        <br />
+                        <div class="date">2024 - 2029</div>
+                        <div class="name">KEMNAKER</div>
+                        <div class="company">PAMA BBSO - Banjarbaru</div>
+                        <p>
+                          Sertiikasi - Tenaga Kerja Bangunan Tinggi Tingkat 2.
+                        </p>
+                        <br />
+                        <div class="date">2022 - 2025</div>
+                        <div class="name">BNSP</div>
+                        <div class="company">BNSP - Banjarmasin</div>
+                        <p>Sertiikasi - Web Database Design.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </div>
+
+              <div class="content skills">
+                <div class="title">Skills</div>
+
+                <div class="row">
+                  <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                    <div class="skills-list dotted">
+                      <div class="skill-title border-line-h">
+                        <div class="icon"><i class="fa fa-laptop"></i></div>
+                        <div class="name">Skills Teknis</div>
+                      </div>
+                      <ul>
+                        <li class="border-line-h">
+                          <div class="name">.NET MVC</div>
+                          <div class="progress">
+                            <div class="percentage" style="width: 84%"></div>
+                          </div>
+                        </li>
+                        <li class="border-line-h">
+                          <div class="name">Laravel & CI Framework</div>
+                          <div class="progress">
+                            <div class="percentage" style="width: 90%"></div>
+                          </div>
+                        </li>
+                        <li class="border-line-h">
+                          <div class="name">Metabase</div>
+                          <div class="progress">
+                            <div class="percentage" style="width: 950%"></div>
+                          </div>
+                        </li>
+                        <li class="border-line-h">
+                          <div class="name">Microsoft Report Builder</div>
+                          <div class="progress">
+                            <div class="percentage" style="width: 85%"></div>
+                          </div>
+                        </li>
+                        <li class="border-line-h">
+                          <div class="name">
+                            OS Linux, Windows & Virtual Machine
+                          </div>
+                          <div class="progress">
+                            <div class="percentage" style="width: 85%"></div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="name">
+                            SAP, Word, Exceel, Power Point, Canva
+                          </div>
+                          <div class="progress">
+                            <div class="percentage" style="width: 85%"></div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                    <div class="skills-list dotted">
+                      <div class="skill-title border-line-h">
+                        <div class="icon"><i class="fa fa-code"></i></div>
+                        <div class="name">Bahasa Pemograman</div>
+                      </div>
+                      <ul>
+                        <li class="border-line-h">
+                          <div class="name">C#</div>
+                          <div class="progress">
+                            <div class="percentage" style="width: 84%"></div>
+                          </div>
+                        </li>
+                        <li class="border-line-h">
+                          <div class="name">PHP</div>
+                          <div class="progress">
+                            <div class="percentage" style="width: 90%"></div>
+                          </div>
+                        </li>
+                        <li class="border-line-h">
+                          <div class="name">SQL Server, Mysql , MongoDB</div>
+                          <div class="progress">
+                            <div class="percentage" style="width: 950%"></div>
+                          </div>
+                        </li>
+                        <li class="border-line-h">
+                          <div class="name">Javascript</div>
+                          <div class="progress">
+                            <div class="percentage" style="width: 85%"></div>
+                          </div>
+                        </li>
+                        <li class="border-line-h">
+                          <div class="name">Java</div>
+                          <div class="progress">
+                            <div class="percentage" style="width: 85%"></div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="name">Dart</div>
+                          <div class="progress">
+                            <div class="percentage" style="width: 85%"></div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                    <div class="skills-list circles">
+                      <div class="skill-title border-line-h">
+                        <div class="icon"><i class="fa fa-user"></i></div>
+                        <div class="name">Personality</div>
+                      </div>
+                      <ul>
+                        <li>
+                          <div class="name">Responsible</div>
+                          <div class="progress p90">
+                            <span>90%</span>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="name">Adaftif</div>
+                          <div class="progress p90">
+                            <span>90%</span>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="name">Bekerja Dengan Team</div>
+                          <div class="progress p100">
+                            <span>100%</span>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="name">Manajemen Waktu</div>
+                          <div class="progress p95">
+                            <span>95%</span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                    <div class="skills-list list">
+                      <div class="skill-title border-line-h">
+                        <div class="icon"><i class="fa fa-network-wired"></i></div>
+                        <div class="name">IT Infrastructure</div>
+                      </div>
+                      <ul>
+                        <li>
+                          <div class="name">Manajemen dan Implementasi CCTV</div>
+                        </li>
+                        <li>
+                          <div class="name">Instalasi dan Pemeliharaan Jaringan Fiber Optic</div>
+                        </li>
+                        <li>
+                          <div class="name">Konfigurasi dan Manajemen Mikrotik</div>
+                        </li>
+                        <li>
+                          <div class="name">Manajemen Switch Cisco</div>
+                        </li>
+                        <li>
+                          <div class="name">Firewall Management</div>
+                        </li>
+                        <li>
+                          <div class="name">Backup and Recovery</div>
+                        </li>
+                        <li>
+                          <div class="name">IT Documentation</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END ID resume-->
+          <!-- ID works-->
+          <div class="card-innerx tab-slider--body" id="tab3">
+            <div class="card-wrapx">
+              <div class="content works">
+                <div class="title">Works</div>
+
+                <div class="row grid-items border-line-v">
+                  <div
+                    class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h"
+                  >
+                    <div class="box-item">
+                      <div class="image">
+                        <a
+                          href="https://pama-bbso.com/assets/vidio/oss.mp4"
+                          data-fancybox="gallery"
+                        >
+                          <img
+                            src="works/osss.png"
+                            alt=""
+                          />
+                        </a>
+                        <div class="desc">One Support System (OSS)</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h"
+                  >
+                    <div class="box-item">
+                      <div class="image">
+                        <a href="https://pama-bbso.com/assets/vidio/lakasi_vidio.mp4" data-fancybox="gallery">
+                          <img src="works/cover_lakasi.png" alt="" />
+                        </a>
+                        <div class="desc">Laporan Kondisi Aktual Site Daily (LAKASI)</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col col-d-6 col-t-6 col-m-12 grid-item video border-line-h"
+                  >
+                    <div class="box-item">
+                      <div class="image">
+                        <a
+                          href="works/sicika.mp4"
+                          data-fancybox="gallery"
+                        >
+                          <img
+                            src="works/sicika-1.png"
+                            alt=""
+                          />
+                        </a>
+                        <div class="desc">Sicipta Karya (sicika.id)</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col col-d-6 col-t-6 col-m-12 grid-item video border-line-h"
+                  >
+                    <div class="box-item">
+                      <div class="image">
+                        <a
+                          href="works/sibiko.png"
+                          data-fancybox="gallery"
+                        >
+                          <img
+                            src="works/sibiko.png"
+                            alt=""
+                          />
+                        </a>
+                        <div class="desc">
+                          Sibina Kontruksi (SIBIKO)
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col col-d-6 col-t-6 col-m-12 grid-item video border-line-h"
+                  >
+                    <div class="box-item">
+                      <div class="image">
+                        <a
+                          href="works//kalsel_unite.JPG"
+                          data-fancybox="gallery"
+                        >
+                          <img
+                            src="works//kalsel_unite.JPG"
+                            alt=""
+                          />
+                        </a>
+                        <div class="desc">Kalsel Unite <br>(Landing Page & Ticket Order)</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h"
+                  >
+                    <div class="box-item">
+                      <div class="image">
+                        <a
+                          href="works/coco.mp4"
+                          data-fancybox="gallery"
+                        >
+                          <img
+                            src="works/coco.png"
+                            alt="Simantabku"
+                          />
+                        </a>
+                        <div class="desc">Cost Control Review <br> (COCO)</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h"
+                  >
+                    <div class="box-item">
+                      <div class="image">
+                        <a
+                        href="works/cocolate.mp4"
+                        data-fancybox="gallery"
+                      >
+                        <img
+                          src="works/cocolate.png"
+                          alt=""
+                        />
+                      </a>
+                        <div class="desc">
+                          Cost Control Never Late
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h"
+                  >
+                    <div class="box-item">
+                      <div class="image">
+                        <a
+                          href="works/cerdas-insani.png"
+                          data-fancybox="gallery"
+                        >
+                          <img
+                            src="works/cerdas-insani.png"
+                            alt=""
+                          />
+                        </a>
+                        <div class="desc">Landing Page Cerdas Insani</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h"
+                  >
+                    <div class="box-item">
+                      <div class="image">
+                        <a
+                          data-fancybox="gallery"
+                          href="works/undangan.JPG"
+                        >
+                          <img
+                            src="works/undangan.JPG"
+                            alt=""
+                          />
+                        </a>
+                        <div class="desc">Wedding Invitations</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- <div
+                    class="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h"
+                  >
+                    <div class="box-item">
+                      <div class="image">
+                        <a
+                          data-fancybox="gallery"
+                          href=""
+                        >
+                          <img
+                            src=""
+                            alt=""
+                          />
+                        </a>
+                        <div class="desc">Project Infrastructure (Comingsoon)</div>
+                      </div>
+                    </div>
+                  </div> -->
+                  
+                  <!-- <div
+                    class="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h"
+                  >
+                    <div class="box-item">
+                      <div class="image">
+                        <a
+                          data-fancybox="gallery"
+                          href=""
+                        >
+                          <img
+                            src=""
+                            alt=""
+                          />
+                        </a>
+                        <div class="desc">Sosialisasi System (Comingsoon)</div>
+                      </div>
+                    </div>
+                  </div> -->
+
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END ID works-->
+        </div>
+      </div>
+      <!--End Tabs-->
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <!--<script src="assets/loader/preloader.js"></script>-->
+    <script src="assets/owl/owl.carousel.min.js"></script>
+
+    <script type="text/javascript ">
+      $(document).ready(function() {
+          var owl = $('.owl-carousel');
+          owl.owlCarousel({
+              items: 1,
+              loop: true,
+              margin: 0,
+              dots: false,
+              center: true,
+              autoplay: false,
+              autoplayHoverPause: false,
+              smartSpeed: 1500,
+              animateIn: "fadeIn",
+              animateOut: "fadeOut",
+
+          });
+      });
+    </script>
+    <!--tabs-->
+    <script>
+      $("document").ready(function () {
+        $(".tab-slider--body").hide();
+        $(".tab-slider--body:first").show();
+      });
+      $(".tab-slider--nav li").click(function () {
+        $(".tab-slider--body").hide();
+        var activeTab = $(this).attr("rel");
+        $("#" + activeTab).fadeIn();
+        $(".f-menu li").removeClass("active");
+        $(this).addClass("active");
+      });
+    </script>
+    <script>
+      jQuery(document).ready(function ($) {
+        var alterClass = function () {
+          var ww = document.body.clientWidth;
+          if (ww < 1199) {
+            $(".f-menu").removeClass("tab-slider--nav");
+            $(".card-innerx").removeClass("tab-slider--body");
+          } else if (ww >= 1200) {
+            $(".f-menu").addClass("tab-slider--nav");
+            $(".card-innerx").addClass("tab-slider--body");
+          }
+        };
+        $(window).resize(function () {
+          alterClass();
+        });
+        //Fire it when the page first loads:
+        alterClass();
+      });
+
+      function calculateAge(birthdate) {
+        // Konversi tanggal lahir ke objek Date
+        const birthDate = new Date(birthdate);
+        const today = new Date();
+
+        // Hitung selisih tahun
+        let age = today.getFullYear() - birthDate.getFullYear();
+
+        // Hitung selisih bulan dan hari
+        const monthDifference = today.getMonth() - birthDate.getMonth();
+        const dayDifference = today.getDate() - birthDate.getDate();
+
+        // Jika bulan atau hari belum berlalu, kurangi umur 1 tahun
+        if (
+          monthDifference < 0 ||
+          (monthDifference === 0 && dayDifference < 0)
+        ) {
+          age--;
+        }
+
+        return age;
+      }
+
+      // Contoh penggunaan
+      const birthdate = "1997-12-21";
+      const age = calculateAge(birthdate);
+
+      document.getElementById("age").textContent = "( " + age + " Tahun " + ")";
+    </script>
+
+    <script>
+      document.querySelectorAll(".expandable").forEach((item) => {
+        item.addEventListener("click", () => {
+          const details = item.querySelector(".details");
+          details.style.display =
+            details.style.display === "block" ? "none" : "block";
+        });
+      });
+    </script>
+  </body>
+</html>
