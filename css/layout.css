@@ -721,9 +721,9 @@
     padding: 30px;
   }
 
-/*   .card-started .title {
+  .card-started .title {
     padding-top: 150px;
-  } */
+  }
 
   .card-inner:last-child {
     margin-bottom: 10px;
